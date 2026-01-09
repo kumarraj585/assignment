@@ -129,6 +129,16 @@ assignment/
 
 ---
 
+## 🔧 Environment Variables
+
+Create a `.env` file inside the **backend** directory with the following variables:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+```
+---
+
 ## 📈 Scalability Notes (Production Ready)
 
 For production deployment:
